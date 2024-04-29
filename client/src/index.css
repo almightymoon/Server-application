@@ -1,0 +1,27 @@
+:root {
+  font-family: "Roboto";
+  line-height: 1.5;
+  font-weight: 400;
+  height: 85%;
+  background: #fff;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(
+    116.82deg,
+    #251e78 0%,
+    rgba(59, 49, 222, 0.74) 100%
+  );
+  text-align: center;
+}
+code {
+  font-family: "Roboto";
+}
+#Container {
+  /* display: grid; */
+  justify-content: center;
+  align-items: center;
+}
