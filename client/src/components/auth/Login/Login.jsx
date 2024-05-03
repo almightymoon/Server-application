@@ -44,7 +44,7 @@ function Login() {
       return req;
     });
 
-    const apiUrl =`${process.env.REACT_APP_BASE_URL}auth/login`;
+    const apiUrl =`${process.env.REACT_APP_BASE_URL}/auth/login`;
     console.log("apiurl ====",apiUrl)
 
     try {
